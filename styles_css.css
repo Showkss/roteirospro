@@ -123,15 +123,10 @@ body {
     box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);
 }
 
-.hero-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    background: rgba(255, 255, 255, 0.1);
+.hero-image img {
+    width: 100%;
     border-radius: 12px;
-    font-size: 1.2rem;
-    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 /* Sections */
@@ -158,7 +153,7 @@ body {
 
 .roteiros-container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 3rem;
     margin-top: 2rem;
 }
@@ -168,35 +163,30 @@ body {
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    height: fit-content;
 }
 
 .selector-tabs {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
+    display: flex;
+    flex-wrap: wrap; /* Adicionado para quebras de linha em muitos botões */
+    gap: 1rem;
     margin-bottom: 2rem;
 }
 
 .tab-button {
-    padding: 0.8rem 0.5rem;
+    /* flex: 1; Removido para permitir quebra de linha mais flexível */
+    padding: 1rem;
     border: 2px solid #E5E7EB;
     background: white;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
     font-weight: 500;
-    font-size: 0.85rem;
-    text-align: center;
+    white-space: nowrap; /* Impede quebras de linha dentro do texto do botão */
 }
 
 .tab-button.active {
     background: #2563EB;
     color: white;
-    border-color: #2563EB;
-}
-
-.tab-button:hover {
     border-color: #2563EB;
 }
 
@@ -286,48 +276,6 @@ body {
     font-family: 'JetBrains Mono', monospace;
     line-height: 1.6;
     white-space: pre-wrap;
-    max-height: 500px;
-    overflow-y: auto;
-}
-
-/* CTA Section após Roteiros */
-.cta-roteiros {
-    background: linear-gradient(135deg, #10B981, #059669);
-    padding: 3rem 0;
-    margin-top: 2rem;
-    border-radius: 12px;
-    text-align: center;
-}
-
-.cta-content {
-    max-width: 600px;
-    margin: 0 auto;
-    color: white;
-}
-
-.cta-content h3 {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-}
-
-.cta-content p {
-    font-size: 1.125rem;
-    margin-bottom: 2rem;
-    opacity: 0.9;
-}
-
-.cta-secondary {
-    background: white;
-    color: #10B981;
-    font-weight: 600;
-    transition: all 0.3s ease;
-}
-
-.cta-secondary:hover {
-    background: #F9FAFB;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 /* Público-Alvo Section */
@@ -534,10 +482,6 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .selector-tabs {
-        grid-template-columns: 1fr;
-    }
-
     .charts-grid {
         grid-template-columns: 1fr;
     }
@@ -552,19 +496,6 @@ body {
 
     .section-title {
         font-size: 2rem;
-    }
-
-    .cta-content h3 {
-        font-size: 1.5rem;
-    }
-    
-    .cta-content p {
-        font-size: 1rem;
-    }
-    
-    .cta-roteiros {
-        margin: 2rem 1rem;
-        padding: 2rem 1rem;
     }
 }
 
@@ -581,13 +512,86 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .tab-button {
-        font-size: 0.75rem;
-        padding: 0.6rem 0.3rem;
+    .selector-tabs {
+        flex-direction: column;
     }
+}
+
+/* Animações */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.6s ease-out;
 }
 
 /* Scroll suave */
 html {
     scroll-behavior: smooth;
+}
+
+
+
+/* CTA Section após Roteiros */
+.cta-roteiros {
+    background: linear-gradient(135deg, #10B981, #059669);
+    padding: 3rem 0;
+    margin-top: 2rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+}
+
+.cta-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.cta-content p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.cta-secondary {
+    background: white;
+    color: #10B981;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.cta-secondary:hover {
+    background: #F9FAFB;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsividade para CTA */
+@media (max-width: 768px) {
+    .cta-content h3 {
+        font-size: 1.5rem;
+    }
+    
+    .cta-content p {
+        font-size: 1rem;
+    }
+    
+    .cta-roteiros {
+        margin: 2rem 1rem;
+        padding: 2rem 1rem;
+    }
 }
