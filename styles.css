@@ -167,13 +167,13 @@ body {
 
 .selector-tabs {
     display: flex;
-    flex-wrap: wrap; /* Adicionado para quebras de linha em muitos botões */
+    flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 2rem;
 }
 
 .tab-button {
-    /* flex: 1; Removido para permitir quebra de linha mais flexível */
+    flex: 1;
     padding: 1rem;
     border: 2px solid #E5E7EB;
     background: white;
@@ -181,7 +181,7 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     font-weight: 500;
-    white-space: nowrap; /* Impede quebras de linha dentro do texto do botão */
+    white-space: nowrap;
 }
 
 .tab-button.active {
