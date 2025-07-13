@@ -38,118 +38,118 @@ Clica no botão, fala com a gente no WhatsApp e garante a vaga dele(a). ele(a) v
     },
     quebraObjecao: {
         titulo: `"Será que meu filho(a) vai gostar mesmo de programação?"`,
-        [cite_start]conteudo: `Essa é a pergunta que quase todos os pais fazem antes de agendar uma aula gratuita aqui na [ESCOLA]. [cite: 28, 29]
+        conteudo: `Essa é a pergunta que quase todos os pais fazem antes de agendar uma aula gratuita aqui na [ESCOLA].
 
-[cite_start]E a resposta mais comum que recebemos depois da aula é: [cite: 30]
-[cite_start]"ele(a) saiu empolgadíssimo! Nunca vi meu filho(a) tão interessado em aprender." [cite: 31]
+E a resposta mais comum que recebemos depois da aula é:
+"ele(a) saiu empolgadíssimo! Nunca vi meu filho(a) tão interessado em aprender."
 
-[cite_start]Aqui a gente não ensina programação como em escola tradicional. [cite: 32]
-[cite_start]É gamificado, interativo e pensado pra envolver a criança no que ela mais gosta: resolver desafios, usar a imaginação e criar com liberdade. [cite: 33]
+Aqui a gente não ensina programação como em escola tradicional.
+É gamificado, interativo e pensado pra envolver a criança no que ela mais gosta: resolver desafios, usar a imaginação e criar com liberdade.
 
-[cite_start]Você pode tirar a dúvida sem risco nenhum. [cite: 34]
-Agende uma aula experimental totalmente gratuita. Se ele(a) gostar, ótimo. [cite_start]Se não, pelo menos você tentou. [cite: 35]
+Você pode tirar a dúvida sem risco nenhum.
+Agende uma aula experimental totalmente gratuita. Se ele(a) gostar, ótimo. Se não, pelo menos você tentou.
 
-[cite_start]Clica no botão aqui embaixo, fala com a gente no WhatsApp e a gente te explica tudo. [cite: 36]`,
+Clica no botão aqui embaixo, fala com a gente no WhatsApp e a gente te explica tudo.`,
         ctr: "1.0%",
         conversao: "9.5%"
     },
     transformacao: {
-        [cite_start]titulo: `De "não gosta de estudar" para "criou o próprio jogo com 9 anos" - tudo começou numa aula experimental grátis. [cite: 39]`,
-        [cite_start]conteudo: `Sabe aquela criança que tem dificuldade de concentração, que não se interessa por escola? [cite: 41]
-Temos muitos casos assim. E sabe o que muda isso? [cite_start]Dar propósito ao aprendizado. [cite: 42]
+        titulo: `De "não gosta de estudar" para "criou o próprio jogo com 9 anos" - tudo começou numa aula experimental grátis.`,
+        conteudo: `Sabe aquela criança que tem dificuldade de concentração, que não se interessa por escola?
+Temos muitos casos assim. E sabe o que muda isso? Dar propósito ao aprendizado.
 
-[cite_start]Quando o aluno(a) entende que estudar pode ser divertido, ele(a) engaja. [cite: 43]
-[cite_start]Programação faz isso. [cite: 43]
+Quando o aluno(a) entende que estudar pode ser divertido, ele(a) engaja.
+Programação faz isso.
 
-[cite_start]Aqui, crianças com apenas 8, 9 anos criam jogos, apps, histórias interativas. [cite: 44]
-[cite_start]E tudo começa com uma aula experimental gratuita. [cite: 44]
+Aqui, crianças com apenas 8, 9 anos criam jogos, apps, histórias interativas.
+E tudo começa com uma aula experimental gratuita.
 
-[cite_start]Se você é de [REGIÃO], clique no botão abaixo, fale com a gente no WhatsApp e agende essa experiência. [cite: 45]
-[cite_start]Você vai ver seu filho(a) com brilho nos olhos, dizendo: "eu quero voltar semana que vem". [cite: 46]`,
+Se você é de [REGIÃO], clique no botão abaixo, fale com a gente no WhatsApp e agende essa experiência.
+Você vai ver seu filho(a) com brilho nos olhos, dizendo: "eu quero voltar semana que vem".`,
         ctr: "0.7%",
         conversao: "7.0%"
     },
     autoridade: {
-        [cite_start]titulo: `Mark Zuckerberg, Bill Gates, Elon Musk... todos eles defendem uma coisa: aprender programação desde cedo. [cite: 49]`,
-        [cite_start]conteudo: `Os maiores nomes da tecnologia mundial têm algo em comum: [cite: 51]
-[cite_start]Todos incentivam as crianças a aprenderem programação desde os primeiros anos de vida. [cite: 52]
+        titulo: `Mark Zuckerberg, Bill Gates, Elon Musk... todos eles defendem uma coisa: aprender programação desde cedo.`,
+        conteudo: `Os maiores nomes da tecnologia mundial têm algo em comum:
+Todos incentivam as crianças a aprenderem programação desde os primeiros anos de vida.
 
-E não é por acaso. [cite_start]Aprender a programar desde cedo desenvolve lógica, criatividade, pensamento crítico e resolução de problemas. [cite: 53]
+E não é por acaso. Aprender a programar desde cedo desenvolve lógica, criatividade, pensamento crítico e resolução de problemas.
 
-[cite_start]Na [ESCOLA], usamos uma metodologia internacional testada em mais de 30 países. [cite: 54]
-[cite_start]E agora, você pode experimentar de graça, com uma aula experimental presencial. [cite: 55]
+Na [ESCOLA], usamos uma metodologia internacional testada em mais de 30 países.
+E agora, você pode experimentar de graça, com uma aula experimental presencial.
 
-[cite_start]Clique no botão abaixo, fale com a gente no WhatsApp e agende a aula gratuita do seu filho(a). [cite: 56]
-[cite_start]É a chance de colocar ele(a) na frente, agora mesmo. [cite: 57]`,
+Clique no botão abaixo, fale com a gente no WhatsApp e agende a aula gratuita do seu filho(a).
+É a chance de colocar ele(a) na frente, agora mesmo.`,
         ctr: "1.5%",
         conversao: "8.0%"
     },
     sintoma: {
-        titulo: `Seu filho(a) só quer saber de celular e videogame? [cite_start]Isso pode ser um sinal... [cite: 60]`,
-        [cite_start]conteudo: `Se o seu filho(a) passa horas no celular, jogando ou vendo vídeos, saiba: [cite: 62]
-[cite_start]ele(a) pode estar dando sinais de que tem potencial para criar tecnologia, não só consumir. [cite: 62]
+        titulo: `Seu filho(a) só quer saber de celular e videogame? Isso pode ser um sinal...`,
+        conteudo: `Se o seu filho(a) passa horas no celular, jogando ou vendo vídeos, saiba:
+ele(a) pode estar dando sinais de que tem potencial para criar tecnologia, não só consumir.
 
-[cite_start]Muitas crianças que chegam aqui desmotivadas com a escola descobrem que gostam de aprender - só não tinham encontrado o formato certo. [cite: 63]
+Muitas crianças que chegam aqui desmotivadas com a escola descobrem que gostam de aprender - só não tinham encontrado o formato certo.
 
-[cite_start]E quando elas percebem que podem criar seus próprios jogos, aplicativos e sites... tudo muda. [cite: 64]
-[cite_start]Essa transformação começa com uma aula gratuita de programação. [cite: 65]
+E quando elas percebem que podem criar seus próprios jogos, aplicativos e sites... tudo muda.
+Essa transformação começa com uma aula gratuita de programação.
 
-[cite_start]Clique aqui, fale com a gente no WhatsApp e agende uma aula experimental sem custo. [cite: 66]
-[cite_start]Você pode descobrir um talento que estava escondido aí na sua casa. [cite: 67]`,
+Clique aqui, fale com a gente no WhatsApp e agende uma aula experimental sem custo.
+Você pode descobrir um talento que estava escondido aí na sua casa.`,
         ctr: "1.0%",
         conversao: "7.0%"
     },
     tecnico: {
-        [cite_start]titulo: `Aprendizado com lógica, algoritmos, pensamento computacional... e muita diversão. [cite: 70]`,
-        [cite_start]conteudo: `Se você quer que seu filho(a) tenha uma base forte em lógica, raciocínio e resolução de problemas, mas de forma leve e divertida... [cite: 72]
-[cite_start]Programação é o caminho. [cite: 73]
+        titulo: `Aprendizado com lógica, algoritmos, pensamento computacional... e muita diversão.`,
+        conteudo: `Se você quer que seu filho(a) tenha uma base forte em lógica, raciocínio e resolução de problemas, mas de forma leve e divertida...
+Programação é o caminho.
 
-[cite_start]Aqui ensinamos crianças a partir de 6 anos com uma metodologia lúdica baseada em pensamento computacional e gamificação. [cite: 74]
+Aqui ensinamos crianças a partir de 6 anos com uma metodologia lúdica baseada em pensamento computacional e gamificação.
 
-Nada de aulas teóricas e chatas. [cite_start]Tudo é feito com jogos, desafios e projetos. [cite: 75]
-[cite_start]Quer ver isso na prática? [cite: 76]
+Nada de aulas teóricas e chatas. Tudo é feito com jogos, desafios e projetos.
+Quer ver isso na prática?
 
-[cite_start]Agende uma aula experimental gratuita. [cite: 77]
-[cite_start]Clique no botão, fale com a gente no WhatsApp e marque a aula para o seu filho(a). [cite: 78]`,
+Agende uma aula experimental gratuita.
+Clique no botão, fale com a gente no WhatsApp e marque a aula para o seu filho(a).`,
         ctr: "0.6%",
         conversao: "7.2%"
     },
     contraintuitivo: {
-        titulo: `Programação é difícil? [cite_start]Só se ensinar do jeito errado. [cite: 81]`,
-        [cite_start]conteudo: `Muita gente acha que programação é só para adultos, nerds ou gênios da matemática. [cite: 83]
-[cite_start]Mas a verdade é que, quando ensinada do jeito certo, até crianças de 6 anos conseguem aprender e se divertir com isso. [cite: 84]
+        titulo: `Programação é difícil? Só se ensinar do jeito errado.`,
+        conteudo: `Muita gente acha que programação é só para adultos, nerds ou gênios da matemática.
+Mas a verdade é que, quando ensinada do jeito certo, até crianças de 6 anos conseguem aprender e se divertir com isso.
 
-[cite_start]Na [ESCOLA], usamos jogos, desafios e histórias para ensinar lógica de programação desde cedo. [cite: 85]
-[cite_start]Os alunos saem das aulas dizendo "quero mais!" [cite: 86]
+Na [ESCOLA], usamos jogos, desafios e histórias para ensinar lógica de programação desde cedo.
+Os alunos saem das aulas dizendo "quero mais!"
 
-[cite_start]Você pode ver isso de perto com uma aula experimental gratuita. [cite: 87]
-[cite_start]Clique no botão, fale com a gente no WhatsApp e garanta a vaga do seu filho(a)! [cite: 88]`,
+Você pode ver isso de perto com uma aula experimental gratuita.
+Clique no botão, fale com a gente no WhatsApp e garanta a vaga do seu filho(a)!`,
         ctr: "1.3%",
         conversao: "8.7%"
     },
     segmentado: {
-        [cite_start]titulo: `Você que é de [REGIÃO] e tem um filho(a) de 6 a 14 anos... que tal dar a ele(a) um diferencial desde cedo? [cite: 91]`,
-        [cite_start]conteudo: `Se você mora em [REGIÃO], provavelmente já percebeu como é difícil achar atividades extracurriculares que unam diversão com aprendizado de verdade. [cite: 93]
+        titulo: `Você que é de [REGIÃO] e tem um filho(a) de 6 a 14 anos... que tal dar a ele(a) um diferencial desde cedo?`,
+        conteudo: `Se você mora em [REGIÃO], provavelmente já percebeu como é difícil achar atividades extracurriculares que unam diversão com aprendizado de verdade.
 
-[cite_start]Aqui na [ESCOLA], oferecemos aulas lúdicas que ensinam lógica, criatividade e foco de um jeito que a criança ama. [cite: 94]
+Aqui na [ESCOLA], oferecemos aulas lúdicas que ensinam lógica, criatividade e foco de um jeito que a criança ama.
 
-[cite_start]E pra você conhecer, temos uma aula experimental totalmente gratuita. [cite: 95]
-[cite_start]Clica no botão, chama no WhatsApp e garanta essa vaga para seu filho(a). [cite: 96]
-[cite_start]Ele(a) vai te agradecer no futuro. [cite: 96]`,
+E pra você conhecer, temos uma aula experimental totalmente gratuita.
+Clica no botão, chama no WhatsApp e garanta essa vaga para seu filho(a).
+Ele(a) vai te agradecer no futuro.`,
         ctr: "2.0%",
         conversao: "9.8%"
     },
     gerundio: {
-        [cite_start]titulo: `Imaginando como seria se seu filho(a) aprendesse programação com 7 anos? [cite: 99]`,
-        [cite_start]conteudo: `Imaginando seu filho(a) criando o próprio jogo com 8 anos? [cite: 101]
-[cite_start]Construindo um site com 10? [cite: 101]
-[cite_start]Aprendendo lógica e raciocínio computacional brincando? [cite: 102]
+        titulo: `Imaginando como seria se seu filho(a) aprendesse programação com 7 anos?`,
+        conteudo: `Imaginando seu filho(a) criando o próprio jogo com 8 anos?
+Construindo um site com 10?
+Aprendendo lógica e raciocínio computacional brincando?
 
-[cite_start]Isso já é realidade para dezenas de crianças aqui na [ESCOLA]. [cite: 103]
-[cite_start]E pode começar com um simples passo: uma aula experimental gratuita. [cite: 104]
+Isso já é realidade para dezenas de crianças aqui na [ESCOLA].
+E pode começar com um simples passo: uma aula experimental gratuita.
 
-[cite_start]Clica aqui no botão, chama a gente no WhatsApp e marca uma aula. [cite: 105]
-[cite_start]Você vai ver o brilho nos olhos dele(a) ao sair da sala dizendo: "quero fazer isso pra sempre!" [cite: 106]`,
+Clica aqui no botão, chama a gente no WhatsApp e marca uma aula.
+Você vai ver o brilho nos olhos dele(a) ao sair da sala dizendo: "quero fazer isso pra sempre!"`,
         ctr: "0.4%",
         conversao: "6.8%"
     }
