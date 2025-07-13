@@ -50,7 +50,7 @@ Clica no botão, fala com a gente no WhatsApp e garante a vaga dele(a). ele(a) v
 Agende uma aula experimental totalmente gratuita. Se ele(a) gostar, ótimo. [cite_start]Se não, pelo menos você tentou. [cite: 35]
 
 [cite_start]Clica no botão aqui embaixo, fala com a gente no WhatsApp e a gente te explica tudo. [cite: 36]`,
-        ctr: "1.0%", // Valores de CTR e Conversão são exemplos, ajuste conforme seus dados.
+        ctr: "1.0%"
         conversao: "9.5%"
     },
     transformacao: {
