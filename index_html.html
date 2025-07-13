@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roteiros de Anúncios - Programação Infantil</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
     <header class="header">
         <nav class="nav">
             <div class="nav-brand">
@@ -29,40 +30,37 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <div class="hero-content">
+            <div class="hero-content" data-aos="fade-up">
                 <h1 class="hero-title">Roteiros de Anúncios que <span class="highlight">Convertem</span> para Programação Infantil</h1>
-                <p class="hero-subtitle">10 estratégias comprovadas para aumentar suas conversões no tráfego pago</p>
-                <a href="#roteiros" class="cta-button">Ver Roteiros Agora</a>
+                <p class="hero-subtitle">Estratégias comprovadas para aumentar suas conversões no tráfego pago</p>
+                <a href="https://wa.me/5524988661110" target="_blank" class="cta-button">Ver Roteiros Agora</a>
             </div>
-            <div class="hero-image">
-                <div>📚 Sala de programação infantil</div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="images/salacomcomputador.png" alt="Sala de aula com computadores para programação infantil">
             </div>
         </div>
     </section>
 
-    <!-- Roteiros Section -->
     <section id="roteiros" class="roteiros-section">
         <div class="container">
-            <h2 class="section-title">10 Roteiros Interativos</h2>
-            <p class="section-subtitle">Personalize e teste diferentes abordagens para seus anúncios</p>
+            <h2 class="section-title" data-aos="fade-up">Roteiros Interativos</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Personalize e teste diferentes abordagens para seus anúncios</p>
             
             <div class="roteiros-container">
-                <!-- Seletor de Roteiros -->
-                <div class="roteiro-selector">
+                <div class="roteiro-selector" data-aos="fade-right">
                     <div class="selector-tabs">
-                        <button class="tab-button active" data-roteiro="pergunta">1. Pergunta</button>
-                        <button class="tab-button" data-roteiro="historia">2. História</button>
-                        <button class="tab-button" data-roteiro="objecao">3. Objeção</button>
-                        <button class="tab-button" data-roteiro="transformacao">4. Transformação</button>
-                        <button class="tab-button" data-roteiro="autoridade">5. Autoridade</button>
-                        <button class="tab-button" data-roteiro="sintoma">6. Sintoma</button>
-                        <button class="tab-button" data-roteiro="tecnico">7. Técnico</button>
-                        <button class="tab-button" data-roteiro="contraintuitivo">8. Contra-intuitivo</button>
-                        <button class="tab-button" data-roteiro="segmentado">9. Segmentado</button>
-                        <button class="tab-button" data-roteiro="gerundio">10. Gerúndio</button>
+                        <button class="tab-button active" data-roteiro="pergunta">Gancho: Pergunta</button>
+                        <button class="tab-button" data-roteiro="historia">Gancho: História</button>
+                        <button class="tab-button" data-roteiro="quebraObjecao">Gancho: Quebra de Objeção</button>
+                        <button class="tab-button" data-roteiro="transformacao">Gancho: Transformação</button>
+                        <button class="tab-button" data-roteiro="autoridade">Gancho: Autoridade</button>
+                        <button class="tab-button" data-roteiro="sintoma">Gancho: Sintoma</button>
+                        <button class="tab-button" data-roteiro="tecnico">Gancho: Técnico</button>
+                        <button class="tab-button" data-roteiro="contraintuitivo">Gancho: Contra-Intuitivo</button>
+                        <button class="tab-button" data-roteiro="segmentado">Gancho: Segmentado</button>
+                        <button class="tab-button" data-roteiro="gerundio">Gancho: Gerúndio</button>
                     </div>
                     
                     <div class="personalization">
@@ -90,20 +88,17 @@
                     </div>
                 </div>
 
-                <!-- Preview do Anúncio -->
-                <div class="roteiro-preview">
+                <div class="roteiro-preview" data-aos="fade-left">
                     <div class="preview-header">
                         <h3>Preview do Anúncio</h3>
                         <button class="copy-button" id="copyButton">📋 Copiar Roteiro</button>
                     </div>
                     <div class="preview-content" id="previewContent">
-                        <!-- Conteúdo será inserido via JavaScript -->
-                    </div>
+                        </div>
                 </div>
             </div>
             
-            <!-- CTA Section após Roteiros -->
-            <div class="cta-roteiros">
+            <div class="cta-roteiros" data-aos="fade-up">
                 <div class="cta-content">
                     <h3>Pronto para Implementar esses Roteiros?</h3>
                     <p>Fale com nosso especialista e descubra como maximizar seus resultados no tráfego pago</p>
@@ -113,14 +108,13 @@
         </div>
     </section>
 
-    <!-- Público-Alvo Section -->
     <section id="publico" class="publico-section">
         <div class="container">
-            <h2 class="section-title">Perfil do Público-Alvo</h2>
-            <p class="section-subtitle">Entenda quem são seus clientes ideais</p>
+            <h2 class="section-title" data-aos="fade-up">Perfil do Público-Alvo</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Entenda quem são seus clientes ideais</p>
             
             <div class="publico-grid">
-                <div class="publico-card">
+                <div class="publico-card" data-aos="flip-left">
                     <div class="card-front">
                         <h3>Demografia</h3>
                         <div class="card-icon">👥</div>
@@ -131,7 +125,7 @@
                     </div>
                 </div>
 
-                <div class="publico-card">
+                <div class="publico-card" data-aos="flip-left" data-aos-delay="100">
                     <div class="card-front">
                         <h3>Localização</h3>
                         <div class="card-icon">📍</div>
@@ -142,7 +136,7 @@
                     </div>
                 </div>
 
-                <div class="publico-card">
+                <div class="publico-card" data-aos="flip-left" data-aos-delay="200">
                     <div class="card-front">
                         <h3>Conectividade</h3>
                         <div class="card-icon">📱</div>
@@ -153,7 +147,7 @@
                     </div>
                 </div>
 
-                <div class="publico-card">
+                <div class="publico-card" data-aos="flip-left" data-aos-delay="300">
                     <div class="card-front">
                         <h3>Filhos</h3>
                         <div class="card-icon">👶</div>
@@ -165,38 +159,37 @@
                 </div>
             </div>
 
-            <div class="chart-container">
+            <div class="chart-container" data-aos="fade-up">
                 <canvas id="classesSociaisChart"></canvas>
             </div>
         </div>
     </section>
 
-    <!-- Mercado Section -->
     <section id="mercado" class="mercado-section">
         <div class="container">
-            <h2 class="section-title">Potencial do Mercado</h2>
-            <p class="section-subtitle">Dados que comprovam a oportunidade de negócio</p>
+            <h2 class="section-title" data-aos="fade-up">Potencial do Mercado</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">Dados que comprovam a oportunidade de negócio</p>
             
             <div class="dashboard">
-                <div class="dashboard-card">
+                <div class="dashboard-card" data-aos="zoom-in">
                     <h3>Crescimento do Franchising</h3>
                     <div class="big-number">13.5%</div>
                     <p>Crescimento em 2024</p>
                 </div>
 
-                <div class="dashboard-card">
+                <div class="dashboard-card" data-aos="zoom-in" data-aos-delay="100">
                     <h3>Segmento Educação</h3>
                     <div class="big-number">12.6%</div>
                     <p>Crescimento no 3º trimestre</p>
                 </div>
 
-                <div class="dashboard-card">
+                <div class="dashboard-card" data-aos="zoom-in" data-aos-delay="200">
                     <h3>Ticket Médio</h3>
                     <div class="big-number">R$275</div>
                     <p>Mensalidade média</p>
                 </div>
 
-                <div class="dashboard-card">
+                <div class="dashboard-card" data-aos="zoom-in" data-aos-delay="300">
                     <h3>ROI</h3>
                     <div class="big-number">2-3 anos</div>
                     <p>Tempo de retorno</p>
@@ -204,12 +197,12 @@
             </div>
 
             <div class="charts-grid">
-                <div class="chart-item">
+                <div class="chart-item" data-aos="fade-right">
                     <h3>Evolução do Mercado</h3>
                     <canvas id="crescimentoChart"></canvas>
                 </div>
 
-                <div class="roi-calculator">
+                <div class="roi-calculator" data-aos="fade-left">
                     <h3>Calculadora de ROI</h3>
                     <div class="calculator">
                         <div class="input-group">
@@ -234,10 +227,9 @@
         </div>
     </section>
 
-    <!-- Contato Section -->
     <section id="contato" class="contato-section">
         <div class="container">
-            <div class="contato-content">
+            <div class="contato-content" data-aos="fade-up">
                 <h2>Pronto para Aumentar suas Conversões?</h2>
                 <p>Entre em contato e descubra como esses roteiros podem transformar seus resultados no tráfego pago.</p>
                 <a href="https://wa.me/5524988661110" target="_blank" class="cta-button">💬 Falar com Especialista</a>
@@ -245,7 +237,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2025 Roteiros Pro. Todos os direitos reservados.</p>
