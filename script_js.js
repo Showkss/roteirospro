@@ -15,7 +15,7 @@ Mesmo sem saber nada de tecnologia, seu filho(a) vai sair da aula dando os prime
 Pra agendar essa aula grátis, é só clicar aqui no botão, mandar um "Oi" no WhatsApp e a gente cuida do resto.
 
 Mas atenção: as vagas são limitadas. Clique agora e garanta a aula experimental do seu filho(a)!`,
-        ctr: "3.2%",
+        ctr: "1.2%",
         conversao: "8.5%"
     },
     historia: {
@@ -33,7 +33,7 @@ E você pode ver isso sem pagar nada, em uma aula experimental 100% gratuita.
 Quer viver essa experiência com seu filho(a)?
 
 Clica no botão, fala com a gente no WhatsApp e garante a vaga dele(a). ele(a) vai sair da aula querendo programar o mundo!`,
-        ctr: "4.1%",
+        ctr: "1.1%",
         conversao: "9.2%"
     },
     quebraObjecao: {
@@ -50,8 +50,8 @@ Clica no botão, fala com a gente no WhatsApp e garante a vaga dele(a). ele(a) v
 Agende uma aula experimental totalmente gratuita. Se ele(a) gostar, ótimo. [cite_start]Se não, pelo menos você tentou. [cite: 35]
 
 [cite_start]Clica no botão aqui embaixo, fala com a gente no WhatsApp e a gente te explica tudo. [cite: 36]`,
-        ctr: "X.X%", // Valores de CTR e Conversão são exemplos, ajuste conforme seus dados.
-        conversao: "Y.Y%"
+        ctr: "1.0%", // Valores de CTR e Conversão são exemplos, ajuste conforme seus dados.
+        conversao: "9.5%"
     },
     transformacao: {
         [cite_start]titulo: `De "não gosta de estudar" para "criou o próprio jogo com 9 anos" - tudo começou numa aula experimental grátis. [cite: 39]`,
@@ -66,8 +66,8 @@ Temos muitos casos assim. E sabe o que muda isso? [cite_start]Dar propósito ao 
 
 [cite_start]Se você é de [REGIÃO], clique no botão abaixo, fale com a gente no WhatsApp e agende essa experiência. [cite: 45]
 [cite_start]Você vai ver seu filho(a) com brilho nos olhos, dizendo: "eu quero voltar semana que vem". [cite: 46]`,
-        ctr: "X.X%",
-        conversao: "Y.Y%"
+        ctr: "0.7%",
+        conversao: "7.0%"
     },
     autoridade: {
         [cite_start]titulo: `Mark Zuckerberg, Bill Gates, Elon Musk... todos eles defendem uma coisa: aprender programação desde cedo. [cite: 49]`,
@@ -81,8 +81,8 @@ E não é por acaso. [cite_start]Aprender a programar desde cedo desenvolve lóg
 
 [cite_start]Clique no botão abaixo, fale com a gente no WhatsApp e agende a aula gratuita do seu filho(a). [cite: 56]
 [cite_start]É a chance de colocar ele(a) na frente, agora mesmo. [cite: 57]`,
-        ctr: "X.X%",
-        conversao: "Y.Y%"
+        ctr: "1.5%",
+        conversao: "8.0%"
     },
     sintoma: {
         titulo: `Seu filho(a) só quer saber de celular e videogame? [cite_start]Isso pode ser um sinal... [cite: 60]`,
@@ -96,8 +96,8 @@ E não é por acaso. [cite_start]Aprender a programar desde cedo desenvolve lóg
 
 [cite_start]Clique aqui, fale com a gente no WhatsApp e agende uma aula experimental sem custo. [cite: 66]
 [cite_start]Você pode descobrir um talento que estava escondido aí na sua casa. [cite: 67]`,
-        ctr: "X.X%",
-        conversao: "Y.Y%"
+        ctr: "1.0%",
+        conversao: "7.0%"
     },
     tecnico: {
         [cite_start]titulo: `Aprendizado com lógica, algoritmos, pensamento computacional... e muita diversão. [cite: 70]`,
@@ -111,8 +111,8 @@ Nada de aulas teóricas e chatas. [cite_start]Tudo é feito com jogos, desafios 
 
 [cite_start]Agende uma aula experimental gratuita. [cite: 77]
 [cite_start]Clique no botão, fale com a gente no WhatsApp e marque a aula para o seu filho(a). [cite: 78]`,
-        ctr: "X.X%",
-        conversao: "Y.Y%"
+        ctr: "0.6%",
+        conversao: "7.2%"
     },
     contraintuitivo: {
         titulo: `Programação é difícil? [cite_start]Só se ensinar do jeito errado. [cite: 81]`,
@@ -124,8 +124,8 @@ Nada de aulas teóricas e chatas. [cite_start]Tudo é feito com jogos, desafios 
 
 [cite_start]Você pode ver isso de perto com uma aula experimental gratuita. [cite: 87]
 [cite_start]Clique no botão, fale com a gente no WhatsApp e garanta a vaga do seu filho(a)! [cite: 88]`,
-        ctr: "X.X%",
-        conversao: "Y.Y%"
+        ctr: "1.3%",
+        conversao: "8.7%"
     },
     segmentado: {
         [cite_start]titulo: `Você que é de [REGIÃO] e tem um filho(a) de 6 a 14 anos... que tal dar a ele(a) um diferencial desde cedo? [cite: 91]`,
@@ -136,8 +136,8 @@ Nada de aulas teóricas e chatas. [cite_start]Tudo é feito com jogos, desafios 
 [cite_start]E pra você conhecer, temos uma aula experimental totalmente gratuita. [cite: 95]
 [cite_start]Clica no botão, chama no WhatsApp e garanta essa vaga para seu filho(a). [cite: 96]
 [cite_start]Ele(a) vai te agradecer no futuro. [cite: 96]`,
-        ctr: "X.X%",
-        conversao: "Y.Y%"
+        ctr: "2.0%",
+        conversao: "9.8%"
     },
     gerundio: {
         [cite_start]titulo: `Imaginando como seria se seu filho(a) aprendesse programação com 7 anos? [cite: 99]`,
@@ -150,8 +150,8 @@ Nada de aulas teóricas e chatas. [cite_start]Tudo é feito com jogos, desafios 
 
 [cite_start]Clica aqui no botão, chama a gente no WhatsApp e marca uma aula. [cite: 105]
 [cite_start]Você vai ver o brilho nos olhos dele(a) ao sair da sala dizendo: "quero fazer isso pra sempre!" [cite: 106]`,
-        ctr: "X.X%",
-        conversao: "Y.Y%"
+        ctr: "0.4%",
+        conversao: "6.8%"
     }
 };
 
